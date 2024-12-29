@@ -1,3 +1,9 @@
+https://findmovies-iem9.onrender.com/
+
+Lokalno pokretanje: 
+    1. npm install
+    2. npm run dev
+
 1. interpolation/one-way binding
    - MoviesView.vue: 17., 18., 19., 20. linija
    - MovieCardComponent.vue: 3. linija

@@ -7,7 +7,7 @@
       {{ error }}
     </div>
   </template>
-  <template v-else-if="!movieId">
+  <template v-else-if="!movie">
     <div class="center-text">This movie does not exist</div>
   </template>
   <template v-else>
@@ -67,7 +67,6 @@ export default {
     })();
 
     return {
-      movieId,
       movie,
       error,
       loading,
